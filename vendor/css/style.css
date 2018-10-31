@@ -479,7 +479,7 @@ a.article:hover {
 
 .home-slider .slick-dots li button:before {
   font-size: 40px;
-  color: #dadada;
+  color: #cfcfcf;
 }
 .mar-left-adjst {
   margin-left: 250px !important;
@@ -498,6 +498,7 @@ a.article:hover {
 .footer {
   height: 5vh;
   text-align: center;
+  margin-top: 40px;
 }
 .footer > p {
   font-family: "mont-light";
@@ -549,4 +550,31 @@ a.article:hover {
 .car-modle {
   font-family: "mont-light";
   margin-top: 10px;
+}
+.vehicle-slider .slick-dots li button:before {
+  font-size: 40px;
+  color: #cfcfcf;
+}
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 22222;
+  background: lightgray;
+  padding: 7px 12px;
+  border: none !important;
+}
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 22222;
+  background: lightgray;
+  padding: 7px 12px;
+  border: none !important;
+}
+.grayclr {
+  color: darkgray;
+}
+.vehicle-slider .slick-dots {
+  bottom: -50px !important;
 }
