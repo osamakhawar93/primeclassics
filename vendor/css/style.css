@@ -578,3 +578,82 @@ a.article:hover {
 .vehicle-slider .slick-dots {
   bottom: -50px !important;
 }
+
+/*our services css*/
+.mar-left-150 {
+  margin-left: 180px;
+}
+.customer-services-width {
+  width: calc(100% - 180px);
+}
+.nn-tabs {
+  border-bottom: unset !important;
+  margin-top: 20px;
+}
+.nn-tabs .nav-item {
+  width: calc(100% / 4) !important;
+  text-align: center;
+  position: relative;
+}
+.nn-tabs .nav-item .nav-link {
+  font-family: "mont-light";
+  text-transform: uppercase;
+  border: 1px solid #cfcfcf;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  color: #cfcfcf;
+}
+.border-btm-active {
+  width: 94%;
+  height: 2px;
+  position: absolute;
+  background: #495057;
+  bottom: -10px;
+}
+.fade:not(.show) {
+  opacity: 1 !important;
+}
+.tab-content {
+  margin-top: 25px;
+  padding: 16px;
+}
+.nav-item .active {
+  color: #495057 !important;
+  font-family: "mont-light";
+  text-transform: uppercase;
+  border: 1px solid #495057 !important;
+}
+.reltv-div {
+  position: relative;
+  height: 60vh;
+}
+.abslt-left-div {
+  position: absolute;
+  bottom: 0;
+}
+.abslt-left-div p {
+  color: #495057;
+  font-family: "mont-light";
+}
+.abslt-left-div p:first-child {
+  margin-bottom: 20px;
+}
+.width100 {
+  width: 100%;
+}
+.grayish-effect {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.slider-btm-abs-txt {
+  color: white;
+  font-family: "mont-light";
+  position: absolute;
+  bottom: 0px;
+  font-size: 25px;
+  left: 15px;
+}
+.servcs-img {
+  position: absolute;
+  bottom: 0;
+}
