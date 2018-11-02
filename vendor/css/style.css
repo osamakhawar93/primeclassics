@@ -652,8 +652,29 @@ a.article:hover {
   bottom: 0px;
   font-size: 25px;
   left: 15px;
+  text-transform: uppercase;
 }
 .servcs-img {
   position: absolute;
+  bottom: 0;
+}
+.left-arrow-services {
+  position: absolute;
+  top: unset;
+  z-index: 22222;
+  background: lightgray;
+  padding: 7px 12px;
+  border: none !important;
+  bottom: 0;
+  right: 30px;
+}
+.right-arrow-services {
+  position: absolute;
+  top: unset;
+  right: 0;
+  z-index: 22222;
+  background: lightgray;
+  padding: 7px 12px;
+  border: none !important;
   bottom: 0;
 }

@@ -32,11 +32,48 @@ $(document).ready(function() {
     nav: true,
     dots: true,
     prevArrow:
-      '<button class="left-arrow">\
+      '<button class="left-arrow-services">\
       <i class="fa fa-caret-left grayclr"></i>\
   </button>',
     nextArrow:
-      '<button class="right-arrow">\
+      '<button class="right-arrow-services">\
+      <i class="fa fa-caret-right grayclr"></i>\
+  </button>'
+  });
+
+  $(".our-services-slider2").slick({
+    nav: true,
+    dots: true,
+    prevArrow:
+      '<button class="left-arrow-services">\
+      <i class="fa fa-caret-left grayclr"></i>\
+  </button>',
+    nextArrow:
+      '<button class="right-arrow-services">\
+      <i class="fa fa-caret-right grayclr"></i>\
+  </button>'
+  });
+  $(".our-services-slider3").slick({
+    nav: true,
+    dots: true,
+    prevArrow:
+      '<button class="left-arrow-services">\
+      <i class="fa fa-caret-left grayclr"></i>\
+  </button>',
+    nextArrow:
+      '<button class="right-arrow-services">\
+      <i class="fa fa-caret-right grayclr"></i>\
+  </button>'
+  });
+  $(".our-services-slider4").slick({
+    nav: true,
+    dots: true,
+    prevArrow:
+      '<button class="left-arrow-services">\
+      <i class="fa fa-caret-left grayclr"></i>\
+  </button>',
+    nextArrow:
+      '<button class="right-arrow-services">\
       <i class="fa fa-caret-right grayclr"></i>\
   </button>'
   });
