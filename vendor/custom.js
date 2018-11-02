@@ -8,9 +8,8 @@ $(document).ready(function() {
     dots: true
   });
 
-  $(".vehicle-slider").slick({
-    nav: true,
-    dots: true,
+  $(".vehicles-slider").slick({
+
     prevArrow:
       '<button class="left-arrow">\
       <i class="fa fa-caret-left grayclr"></i>\

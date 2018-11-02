@@ -105,6 +105,9 @@ section {
 body {
   line-height: 1;
 }
+.clear{
+  clear:both;
+}
 ol,
 ul {
   list-style: none;
@@ -135,6 +138,10 @@ button:focus {
 
 /* Reset Styles */
 
+*{
+  transition:all 0.3s;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -158,7 +165,7 @@ button:focus {
   padding: 40px;
   transition: all 0.3s;
   overflow-y: hidden;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+ 
 }
 
 #sidebar.active {
@@ -223,7 +230,7 @@ button:focus {
 
 #sidebar ul li a:hover {
   color: #7386d5;
-  background: #fff;
+  text-decoration: none;
 }
 
 #sidebar ul li.active > a,
@@ -242,6 +249,10 @@ a[data-toggle="collapse"] {
   top: 50%;
   right: 20px;
   transform: translateY(-50%);
+}
+
+.dropdown-item{
+  font-family: 'mont-light'
 }
 
 ul ul a {
@@ -366,7 +377,7 @@ a.article:hover {
 
 .left-sided {
   position: absolute;
-  bottom: 40px;
+  bottom: 65px;
   left: 50%;
   transform: translate(-50%, 7%);
 }
@@ -400,7 +411,7 @@ a.article:hover {
 
 .right-content {
   display: table;
-  min-height: 80vh;
+  min-height: 88vh;
   width: 100%;
   position: relative;
 }
@@ -440,7 +451,7 @@ a.article:hover {
 
 .black-back {
   position: absolute;
-  top: 0;
+  top: 20px;
   height: 475px;
   width: 200px;
   right: 35%;
@@ -448,7 +459,7 @@ a.article:hover {
 }
 
 .image-box img {
-  width: 100%;
+  width: 780px;
   position: absolute;
   right: -100px;
   top: 100px;
@@ -478,11 +489,12 @@ a.article:hover {
 }
 
 .home-slider .slick-dots li button:before {
-  font-size: 40px;
+  font-size: 50px;
   color: #cfcfcf;
 }
 .mar-left-adjst {
-  margin-left: 250px !important;
+  margin-left: 250px;
+  width:calc( 100% - 250px);
 }
 .vertically-cntered {
   position: absolute;
@@ -496,9 +508,8 @@ a.article:hover {
   max-width: 100%;
 }
 .footer {
-  height: 5vh;
+  height: 12vh;
   text-align: center;
-  margin-top: 40px;
 }
 .footer > p {
   font-family: "mont-light";
@@ -539,9 +550,11 @@ a.article:hover {
 }
 .single-vehicle-div {
   text-align: center;
+  width:250px;
 }
 .vehicle-img-div > img {
   width: 250px;
+  margin:0 auto;
 }
 .car-name {
   font-family: "mont-semi-bold";
