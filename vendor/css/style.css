@@ -410,7 +410,6 @@ a.article:hover {
 }
 
 .right-content {
-  display: table;
   min-height: 88vh;
   width: 100%;
   position: relative;
