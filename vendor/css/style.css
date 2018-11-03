@@ -691,3 +691,7 @@ a.article:hover {
   border: none !important;
   bottom: 0;
 }
+.vehicls-width-adjst{
+  margin-left: 250px;
+  width: calc( 100% - 250px);
+}

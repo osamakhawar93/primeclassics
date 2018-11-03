@@ -8,8 +8,13 @@ $(document).ready(function() {
     dots: true
   });
 
-  $(".vehicles-slider").slick({
-
+  $(".vehicle-slider").slick({
+    
+    infinite: true,
+    nav: true,
+    slidesToShow: 1,
+  slidesToScroll: 1,
+    dots: true,
     prevArrow:
       '<button class="left-arrow">\
       <i class="fa fa-caret-left grayclr"></i>\
@@ -19,6 +24,7 @@ $(document).ready(function() {
       <i class="fa fa-caret-right grayclr"></i>\
   </button>'
   });
+
 
   $(".nn-tabs .nav-item").click(function() {
     $(".nn-tabs .nav-item div").removeClass("border-btm-active");
