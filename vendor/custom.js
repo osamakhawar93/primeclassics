@@ -15,14 +15,8 @@ $(document).ready(function() {
     slidesToShow: 1,
   slidesToScroll: 1,
     dots: true,
-    prevArrow:
-      '<button class="left-arrow">\
-      <i class="fa fa-caret-left grayclr"></i>\
-  </button>',
-    nextArrow:
-      '<button class="right-arrow">\
-      <i class="fa fa-caret-right grayclr"></i>\
-  </button>'
+    prevArrow: $(".left-arrow"),
+    nextArrow: $(".right-arrow")
   });
 
 
